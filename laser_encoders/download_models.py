@@ -45,7 +45,10 @@ class LaserModelDownloader:
         self.base_url = "https://dl.fbaipublicfiles.com/nllb/laser"
 
     def download(self, filename: str):
-        url = os.path.join(self.base_url, filename)
+        # Because on windows os.path.join will use "\" insted of "/", so link would be:
+        # https://dl.fbaipublicfiles.com/nllb/laser\laser2.pt instead of https://dl.fbaipublicfiles.com/nllb/laser/laser2.pt
+        # which results in a failed download.
+        url = f"{self.base_url}/{filename}"
         local_file_path = os.path.join(self.model_dir, filename)
 
         if os.path.exists(local_file_path):
