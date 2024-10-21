@@ -80,4 +80,4 @@ python3 $LASER/source/eval.py                \
     --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs en      \
     --tgt-langs zh-cn      \
-    --verbose
+     

@@ -75,7 +75,7 @@ python3 $LASER/source/eval.py                \
     --corpus-part $corpus_part               \
     --margin ratio                           \
     --src-langs tha_Thai,eng_Latn,zho_Hans      \
-    --nway --verbose \
+    --nway  
     --src-encoder BAAI/bge-m3 \
     --use-hugging-face \
     --embedding-dimension 768

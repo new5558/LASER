@@ -77,4 +77,4 @@ python3 $LASER/source/eval.py                \
     --src-encoder   $LASER/models/laser2.pt  \
     --src-spm-model $LASER/models/laser2.spm \
     --src-langs tha_Thai,eng_Latn,zho_Hans      \
-    --nway --verbose
+    --nway  
