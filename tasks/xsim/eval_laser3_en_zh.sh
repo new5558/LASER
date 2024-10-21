@@ -79,5 +79,5 @@ python3 $LASER/source/eval.py                \
     --tgt-encoder   $LASER/models/laser2.pt  \
     --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs eng_Latn      \
-    --tgt-langs zho_Hans      \
+    --tgt-langs zho_Hans
      

@@ -75,7 +75,7 @@ python3 $LASER/source/eval.py                \
     --corpus-part $corpus_part               \
     --margin ratio                           \
     --src-langs tha_Thai,eng_Latn,zho_Hans      \
-    --nway  
+    --nway  \
     --src-encoder kornwtp/SCT-KD-model-wangchanberta \
     --use-hugging-face \
     --embedding-dimension 768

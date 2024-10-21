@@ -76,7 +76,6 @@ python3 $LASER/source/eval.py                \
     --margin ratio                           \
     --src-langs en      \
     --tgt-langs zh-cn      \
-     
     --tgt-encoder paraphrase-multilingual-mpnet-base-v2 \
     --src-encoder paraphrase-multilingual-mpnet-base-v2 \
     --use-hugging-face \

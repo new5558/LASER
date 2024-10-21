@@ -79,5 +79,5 @@ python3 $LASER/source/eval.py                \
     --tgt-encoder   $LASER/nllb/laser3-tha_Thai.v1.pt  \
     --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs en      \
-    --tgt-langs th      \
+    --tgt-langs th
      
