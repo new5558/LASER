@@ -76,7 +76,6 @@ python3 $LASER/source/eval.py                \
     --margin ratio                           \
     --src-langs zh-cn      \
     --tgt-langs th      \
-     
     --tgt-encoder kornwtp/ConGen-model-XLMR \
     --src-encoder kornwtp/ConGen-model-XLMR \
     --use-hugging-face \
