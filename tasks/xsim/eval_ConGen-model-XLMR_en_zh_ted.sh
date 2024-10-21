@@ -74,8 +74,6 @@ python3 $LASER/source/eval.py                \
     --corpus $corpus                         \
     --corpus-part $corpus_part               \
     --margin ratio                           \
-    --src-spm-model $LASER/models/laser2.spm \
-    --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs en      \
     --tgt-langs zh-cn      \
     --verbose \
