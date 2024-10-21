@@ -77,7 +77,7 @@ python3 $LASER/source/eval.py                \
     --src-spm-model $LASER/models/laser2.spm \
     --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs en      \
-    --tgt-langs zh      \
+    --tgt-langs zh-cn      \
     --verbose \
     --tgt-encoder paraphrase-multilingual-mpnet-base-v2 \
     --src-encoder paraphrase-multilingual-mpnet-base-v2 \

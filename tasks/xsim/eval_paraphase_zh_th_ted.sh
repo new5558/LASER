@@ -76,7 +76,7 @@ python3 $LASER/source/eval.py                \
     --margin ratio                           \
     --src-spm-model $LASER/models/laser2.spm \
     --tgt-spm-model $LASER/models/laser2.spm \
-    --src-langs zh      \
+    --src-langs zh-cn      \
     --tgt-langs th      \
     --verbose \
     --tgt-encoder paraphrase-multilingual-mpnet-base-v2 \
