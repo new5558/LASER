@@ -62,8 +62,11 @@ def buffered_read(fp, buffer_size):
 class HuggingFaceEncoder:
     def __init__(self, encoder_name: str, verbose=False):
         from sentence_transformers import SentenceTransformer
-
-        encoder = f"sentence-transformers/{encoder_name}"
+        
+        if '/' in encoder_name:
+            encoder = encoder_name
+        else:
+            encoder = f"sentence-transformers/{encoder_name}"
         if verbose:
             logger.info(f"loading HuggingFace encoder: {encoder}")
         self.encoder = SentenceTransformer(encoder)
