@@ -74,9 +74,9 @@ python3 $LASER/source/eval.py                \
     --corpus $corpus                         \
     --corpus-part $corpus_part               \
     --margin ratio                           \
-    --src-encoder   $LASER/models/laser2.pt  \
+    --src-encoder   $LASER/nllb/laser3-tha_Thai.v1.pt  \
     --src-spm-model $LASER/models/laser2.spm \
-    --tgt-encoder   $LASER/nllb/laser3-tha_Thai.v1.pt  \
+    --tgt-encoder   $LASER/models/laser2.pt  \
     --tgt-spm-model $LASER/models/laser2.spm \
     --src-langs th      \
     --tgt-langs zh-cn      \
